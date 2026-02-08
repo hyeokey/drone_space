@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000493] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000658] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000683] (decision_node) JobQueued: {'identifier': 'decision_node', 'dependencies': OrderedDict([('px4_msgs', '/drone_space/ros2_ws/install/px4_msgs')])}
+[0.000815] (decision_node) JobStarted: {'identifier': 'decision_node'}
+[0.009516] (decision_node) JobProgress: {'identifier': 'decision_node', 'progress': 'cmake'}
+[0.009842] (decision_node) Command: {'cmd': ['/usr/bin/cmake', '/drone_space/ros2_ws/src/decision_node', '-DCMAKE_INSTALL_PREFIX=/drone_space/ros2_ws/install/decision_node'], 'cwd': '/drone_space/ros2_ws/build/decision_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'hyeokey'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/drone_space/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/drone_space/ros2_ws/install:/drone_space/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/drone_space/install/decision_node:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/decision_node:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/drone_space/ros2_ws/build/decision_node'), ('PYTHONPATH', '/drone_space/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/drone_space/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Asia/Seoul'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/drone_space/ros2_ws/install/px4_msgs:/drone_space/install/decision_node:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/opt/ros/humble')]), 'shell': False}
+[0.054499] (decision_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099855] (-) TimerEvent: {}
+[0.104426] (decision_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.110123] (decision_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.167022] (decision_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.172249] (decision_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.172461] (decision_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.172591] (decision_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.174491] (decision_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199977] (-) TimerEvent: {}
+[0.232882] (decision_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.237493] (decision_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.237746] (decision_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.238000] (decision_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.239459] (decision_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300051] (-) TimerEvent: {}
+[0.335489] (decision_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.394730] (decision_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400162] (-) TimerEvent: {}
+[0.417146] (decision_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.419475] (decision_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.425147] (decision_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.431668] (decision_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.441436] (decision_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.468336] (decision_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.469700] (decision_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500289] (-) TimerEvent: {}
+[0.548178] (decision_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.571447] (decision_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.599243] (decision_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600347] (-) TimerEvent: {}
+[0.605964] (decision_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.666038] (decision_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.666290] (decision_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700463] (-) TimerEvent: {}
+[0.740244] (decision_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.741274] (decision_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.771244] (decision_node) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.800540] (-) TimerEvent: {}
+[0.825022] (decision_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.830835] (decision_node) StdoutLine: {'line': b'-- Generating done\n'}
+[0.833068] (decision_node) StdoutLine: {'line': b'-- Build files have been written to: /drone_space/ros2_ws/build/decision_node\n'}
+[0.839062] (decision_node) CommandEnded: {'returncode': 0}
+[0.839482] (decision_node) JobProgress: {'identifier': 'decision_node', 'progress': 'build'}
+[0.840260] (decision_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/drone_space/ros2_ws/build/decision_node', '--', '-j20', '-l20'], 'cwd': '/drone_space/ros2_ws/build/decision_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'hyeokey'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/drone_space/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/drone_space/ros2_ws/install:/drone_space/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/drone_space/install/decision_node:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/decision_node:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/drone_space/ros2_ws/build/decision_node'), ('PYTHONPATH', '/drone_space/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/drone_space/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Asia/Seoul'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/drone_space/ros2_ws/install/px4_msgs:/drone_space/install/decision_node:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/opt/ros/humble')]), 'shell': False}
+[0.887293] (decision_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/decision_node.dir/src/decision_node.cpp.o\x1b[0m\n'}
+[0.900681] (-) TimerEvent: {}
+[1.001100] (-) TimerEvent: {}
+[1.101389] (-) TimerEvent: {}
+[1.201654] (-) TimerEvent: {}
+[1.301945] (-) TimerEvent: {}
+[1.402205] (-) TimerEvent: {}
+[1.502481] (-) TimerEvent: {}
+[1.602746] (-) TimerEvent: {}
+[1.703010] (-) TimerEvent: {}
+[1.803296] (-) TimerEvent: {}
+[1.903613] (-) TimerEvent: {}
+[2.003849] (-) TimerEvent: {}
+[2.104133] (-) TimerEvent: {}
+[2.204388] (-) TimerEvent: {}
+[2.304681] (-) TimerEvent: {}
+[2.405015] (-) TimerEvent: {}
+[2.505270] (-) TimerEvent: {}
+[2.605539] (-) TimerEvent: {}
+[2.705803] (-) TimerEvent: {}
+[2.806055] (-) TimerEvent: {}
+[2.906398] (-) TimerEvent: {}
+[3.006702] (-) TimerEvent: {}
+[3.106969] (-) TimerEvent: {}
+[3.207219] (-) TimerEvent: {}
+[3.307543] (-) TimerEvent: {}
+[3.407878] (-) TimerEvent: {}
+[3.508192] (-) TimerEvent: {}
+[3.608529] (-) TimerEvent: {}
+[3.708790] (-) TimerEvent: {}
+[3.809066] (-) TimerEvent: {}
+[3.909337] (-) TimerEvent: {}
+[4.009764] (-) TimerEvent: {}
+[4.110101] (-) TimerEvent: {}
+[4.210476] (-) TimerEvent: {}
+[4.310844] (-) TimerEvent: {}
+[4.411186] (-) TimerEvent: {}
+[4.511519] (-) TimerEvent: {}
+[4.611864] (-) TimerEvent: {}
+[4.712212] (-) TimerEvent: {}
+[4.812534] (-) TimerEvent: {}
+[4.912839] (-) TimerEvent: {}
+[5.013188] (-) TimerEvent: {}
+[5.113548] (-) TimerEvent: {}
+[5.213886] (-) TimerEvent: {}
+[5.314218] (-) TimerEvent: {}
+[5.414617] (-) TimerEvent: {}
+[5.514987] (-) TimerEvent: {}
+[5.615376] (-) TimerEvent: {}
+[5.715701] (-) TimerEvent: {}
+[5.816027] (-) TimerEvent: {}
+[5.916463] (-) TimerEvent: {}
+[6.016812] (-) TimerEvent: {}
+[6.117129] (-) TimerEvent: {}
+[6.217462] (-) TimerEvent: {}
+[6.317806] (-) TimerEvent: {}
+[6.418125] (-) TimerEvent: {}
+[6.518455] (-) TimerEvent: {}
+[6.618775] (-) TimerEvent: {}
+[6.719095] (-) TimerEvent: {}
+[6.819444] (-) TimerEvent: {}
+[6.919766] (-) TimerEvent: {}
+[7.020165] (-) TimerEvent: {}
+[7.120501] (-) TimerEvent: {}
+[7.220838] (-) TimerEvent: {}
+[7.321231] (-) TimerEvent: {}
+[7.421556] (-) TimerEvent: {}
+[7.521824] (-) TimerEvent: {}
+[7.622157] (-) TimerEvent: {}
+[7.722369] (-) TimerEvent: {}
+[7.822625] (-) TimerEvent: {}
+[7.922945] (-) TimerEvent: {}
+[8.023247] (-) TimerEvent: {}
+[8.123534] (-) TimerEvent: {}
+[8.223810] (-) TimerEvent: {}
+[8.324075] (-) TimerEvent: {}
+[8.424367] (-) TimerEvent: {}
+[8.524768] (-) TimerEvent: {}
+[8.625083] (-) TimerEvent: {}
+[8.716368] (decision_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable decision_node\x1b[0m\n'}
+[8.725188] (-) TimerEvent: {}
+[8.825508] (-) TimerEvent: {}
+[8.925836] (-) TimerEvent: {}
+[9.026088] (-) TimerEvent: {}
+[9.100639] (decision_node) StdoutLine: {'line': b'[100%] Built target decision_node\n'}
+[9.109660] (decision_node) CommandEnded: {'returncode': 0}
+[9.110084] (decision_node) JobProgress: {'identifier': 'decision_node', 'progress': 'install'}
+[9.116986] (decision_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/drone_space/ros2_ws/build/decision_node'], 'cwd': '/drone_space/ros2_ws/build/decision_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'hyeokey'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/drone_space/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/drone_space/ros2_ws/install:/drone_space/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/drone_space/install/decision_node:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/decision_node:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/drone_space/ros2_ws/build/decision_node'), ('PYTHONPATH', '/drone_space/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/drone_space/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Asia/Seoul'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/drone_space/ros2_ws/install/px4_msgs:/drone_space/install/decision_node:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/opt/ros/humble')]), 'shell': False}
+[9.126272] (decision_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.126508] (-) TimerEvent: {}
+[9.126622] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/lib/decision_node/decision_node\n'}
+[9.130646] (decision_node) StdoutLine: {'line': b'-- Set runtime path of "/drone_space/ros2_ws/install/decision_node/lib/decision_node/decision_node" to ""\n'}
+[9.130760] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/ament_index/resource_index/package_run_dependencies/decision_node\n'}
+[9.130835] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/ament_index/resource_index/parent_prefix_path/decision_node\n'}
+[9.130955] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/ament_prefix_path.sh\n'}
+[9.131210] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/ament_prefix_path.dsv\n'}
+[9.131421] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/path.sh\n'}
+[9.131601] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/path.dsv\n'}
+[9.131758] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.bash\n'}
+[9.131969] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.sh\n'}
+[9.132102] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.zsh\n'}
+[9.132419] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.dsv\n'}
+[9.132671] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/package.dsv\n'}
+[9.132930] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/ament_index/resource_index/packages/decision_node\n'}
+[9.133190] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/cmake/decision_nodeConfig.cmake\n'}
+[9.133586] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/cmake/decision_nodeConfig-version.cmake\n'}
+[9.133903] (decision_node) StdoutLine: {'line': b'-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/package.xml\n'}
+[9.136121] (decision_node) CommandEnded: {'returncode': 0}
+[9.155743] (decision_node) JobEnded: {'identifier': 'decision_node', 'rc': 0}
+[9.156109] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/uninstall.dir
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/decision_node_uninstall.dir
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/decision_node.dir
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/test.dir
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/edit_cache.dir
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/rebuild_cache.dir
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/list_install_components.dir
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/install.dir
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/install/local.dir
+/drone_space/ros2_ws/build/decision_node/CMakeFiles/install/strip.dir

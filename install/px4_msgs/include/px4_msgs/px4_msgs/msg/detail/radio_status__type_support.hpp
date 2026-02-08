@@ -1,0 +1,1 @@
+/drone_space/build/px4_msgs/rosidl_generator_cpp/px4_msgs/msg/detail/radio_status__type_support.hpp

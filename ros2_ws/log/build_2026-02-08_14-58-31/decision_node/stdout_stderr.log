@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target decision_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/decision_node.dir/src/decision_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable decision_node[0m
+[100%] Built target decision_node
+-- Install configuration: ""
+-- Installing: /drone_space/ros2_ws/install/decision_node/lib/decision_node/decision_node
+-- Set runtime path of "/drone_space/ros2_ws/install/decision_node/lib/decision_node/decision_node" to ""
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/ament_index/resource_index/package_run_dependencies/decision_node
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/ament_index/resource_index/parent_prefix_path/decision_node
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/ament_prefix_path.sh
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/path.sh
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/path.dsv
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.bash
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.sh
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.zsh
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.dsv
+-- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/package.dsv
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/ament_index/resource_index/packages/decision_node
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/cmake/decision_nodeConfig.cmake
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/cmake/decision_nodeConfig-version.cmake
+-- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/package.xml

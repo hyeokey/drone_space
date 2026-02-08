@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/drone_space/ros2_ws/build/decision_node': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/drone_space/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/drone_space/install/px4_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /drone_space/ros2_ws/build/decision_node -- -j20 -l20
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target decision_node[0m
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/decision_node.dir/src/decision_node.cpp.o[0m
+[7.754s] [100%] [32m[1mLinking CXX executable decision_node[0m
+[8.129s] [100%] Built target decision_node
+[8.139s] Invoked command in '/drone_space/ros2_ws/build/decision_node' returned '0': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/drone_space/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/drone_space/install/px4_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /drone_space/ros2_ws/build/decision_node -- -j20 -l20
+[8.140s] Invoking command in '/drone_space/ros2_ws/build/decision_node': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/drone_space/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/drone_space/install/px4_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /drone_space/ros2_ws/build/decision_node
+[8.146s] -- Install configuration: ""
+[8.146s] -- Installing: /drone_space/ros2_ws/install/decision_node/lib/decision_node/decision_node
+[8.150s] -- Set runtime path of "/drone_space/ros2_ws/install/decision_node/lib/decision_node/decision_node" to ""
+[8.150s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/ament_index/resource_index/package_run_dependencies/decision_node
+[8.150s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/ament_index/resource_index/parent_prefix_path/decision_node
+[8.150s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/ament_prefix_path.sh
+[8.150s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/ament_prefix_path.dsv
+[8.150s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/path.sh
+[8.150s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/environment/path.dsv
+[8.150s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.bash
+[8.151s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.sh
+[8.151s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.zsh
+[8.151s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/local_setup.dsv
+[8.151s] -- Installing: /drone_space/ros2_ws/install/decision_node/share/decision_node/package.dsv
+[8.151s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/ament_index/resource_index/packages/decision_node
+[8.151s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/cmake/decision_nodeConfig.cmake
+[8.151s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/cmake/decision_nodeConfig-version.cmake
+[8.151s] -- Up-to-date: /drone_space/ros2_ws/install/decision_node/share/decision_node/package.xml
+[8.152s] Invoked command in '/drone_space/ros2_ws/build/decision_node' returned '0': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/drone_space/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/drone_space/install/px4_msgs/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /drone_space/ros2_ws/build/decision_node

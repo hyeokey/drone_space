@@ -1,0 +1,2 @@
+Invoking command in '/drone_space/build/decision_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /drone_space/build/decision_node -- -j20 -l20
+Invoked command in '/drone_space/build/decision_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /drone_space/build/decision_node -- -j20 -l20

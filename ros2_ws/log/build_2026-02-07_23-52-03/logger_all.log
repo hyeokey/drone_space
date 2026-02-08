@@ -1,0 +1,288 @@
+[0.066s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.066s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cab00c5cc40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cab00c5c130>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cab00c5c130>>)
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/drone_space/ros2_ws'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_node) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_node) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_node) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_node) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_node) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_node) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_node) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_node) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/decision_node) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/decision_node' with type 'ros.ament_cmake' and name 'decision_node'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.176s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /drone_space/ros2_ws/install
+[0.176s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /drone_space/install
+[0.177s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 183 installed packages in /opt/ros/humble
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/drone_space/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/drone_space/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/drone_space/ros2_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'decision_node' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'decision_node' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'decision_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'decision_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'decision_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'decision_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'decision_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'decision_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'decision_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'decision_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/drone_space/ros2_ws/build/decision_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/drone_space/ros2_ws/install/decision_node', 'merge_install': False, 'path': '/drone_space/ros2_ws/src/decision_node', 'symlink_install': False, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/drone_space/ros2_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/drone_space/ros2_ws/install/px4_ros_com', 'merge_install': False, 'path': '/drone_space/ros2_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.193s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.195s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/drone_space/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.195s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/drone_space/ros2_ws/src/px4_msgs'
+[0.197s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/drone_space/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /drone_space/ros2_ws/build/px4_msgs -- -j20 -l20
+[0.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/drone_space/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /drone_space/ros2_ws/build/px4_msgs -- -j20 -l20
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/drone_space/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /drone_space/ros2_ws/build/px4_msgs
+[1.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/drone_space/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /drone_space/ros2_ws/build/px4_msgs
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs' for CMake module files
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs' for CMake config files
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/lib'
+[1.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/bin'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/bin'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[1.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/drone_space/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1.175s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs' for CMake module files
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs' for CMake config files
+[1.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/lib'
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/bin'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_msgs/bin'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[1.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/drone_space/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[1.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/drone_space/ros2_ws/src/decision_node' with build type 'ament_cmake'
+[1.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/drone_space/ros2_ws/src/decision_node'
+[1.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/drone_space/ros2_ws/src/px4_ros_com' with build type 'ament_cmake'
+[1.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/drone_space/ros2_ws/src/px4_ros_com'
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/drone_space/ros2_ws/build/decision_node': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /drone_space/ros2_ws/build/decision_node -- -j20 -l20
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/drone_space/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /drone_space/ros2_ws/build/px4_ros_com -- -j20 -l20
+[1.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/drone_space/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /drone_space/ros2_ws/build/px4_ros_com -- -j20 -l20
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/drone_space/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /drone_space/ros2_ws/build/px4_ros_com
+[1.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com' for CMake module files
+[1.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/drone_space/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /drone_space/ros2_ws/build/px4_ros_com
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com' for CMake config files
+[1.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[1.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[1.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/lib'
+[1.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/bin'
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/bin'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[1.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/drone_space/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[1.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com' for CMake module files
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com' for CMake config files
+[1.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/lib'
+[1.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/bin'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/px4_ros_com/bin'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[1.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/drone_space/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[12.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/drone_space/ros2_ws/build/decision_node' returned '0': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /drone_space/ros2_ws/build/decision_node -- -j20 -l20
+[12.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/drone_space/ros2_ws/build/decision_node': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /drone_space/ros2_ws/build/decision_node
+[12.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(decision_node)
+[12.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/drone_space/ros2_ws/build/decision_node' returned '0': CMAKE_PREFIX_PATH=/drone_space/ros2_ws/install/px4_msgs:/drone_space/ros2_ws/install/px4_ros_com:/drone_space/ros2_ws/install/decision_node:/drone_space/install/decision_node:/opt/ros/humble LD_LIBRARY_PATH=/drone_space/ros2_ws/install/px4_msgs/lib:/drone_space/ros2_ws/install/px4_ros_com/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /drone_space/ros2_ws/build/decision_node
+[12.039s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node' for CMake module files
+[12.040s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node' for CMake config files
+[12.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('decision_node', 'cmake_prefix_path')
+[12.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/decision_node/share/decision_node/hook/cmake_prefix_path.ps1'
+[12.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/decision_node/share/decision_node/hook/cmake_prefix_path.dsv'
+[12.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/decision_node/share/decision_node/hook/cmake_prefix_path.sh'
+[12.043s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/lib'
+[12.043s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/bin'
+[12.043s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/lib/pkgconfig/decision_node.pc'
+[12.043s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/lib/python3.10/site-packages'
+[12.043s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/bin'
+[12.044s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.ps1'
+[12.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.dsv'
+[12.045s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.sh'
+[12.045s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.bash'
+[12.046s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.zsh'
+[12.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/drone_space/ros2_ws/install/decision_node/share/colcon-core/packages/decision_node)
+[12.047s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(decision_node)
+[12.047s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node' for CMake module files
+[12.047s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node' for CMake config files
+[12.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('decision_node', 'cmake_prefix_path')
+[12.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/decision_node/share/decision_node/hook/cmake_prefix_path.ps1'
+[12.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/drone_space/ros2_ws/install/decision_node/share/decision_node/hook/cmake_prefix_path.dsv'
+[12.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/drone_space/ros2_ws/install/decision_node/share/decision_node/hook/cmake_prefix_path.sh'
+[12.049s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/lib'
+[12.050s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/bin'
+[12.050s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/lib/pkgconfig/decision_node.pc'
+[12.050s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/lib/python3.10/site-packages'
+[12.050s] Level 1:colcon.colcon_core.environment:checking '/drone_space/ros2_ws/install/decision_node/bin'
+[12.050s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.ps1'
+[12.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.dsv'
+[12.052s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.sh'
+[12.052s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.bash'
+[12.053s] INFO:colcon.colcon_core.shell:Creating package script '/drone_space/ros2_ws/install/decision_node/share/decision_node/package.zsh'
+[12.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/drone_space/ros2_ws/install/decision_node/share/colcon-core/packages/decision_node)
+[12.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.054s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.054s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.054s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.059s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.060s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.060s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[12.060s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/drone_space/ros2_ws/install/local_setup.ps1'
+[12.062s] INFO:colcon.colcon_core.shell:Creating prefix util module '/drone_space/ros2_ws/install/_local_setup_util_ps1.py'
+[12.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/drone_space/ros2_ws/install/setup.ps1'
+[12.064s] INFO:colcon.colcon_core.shell:Creating prefix script '/drone_space/ros2_ws/install/local_setup.sh'
+[12.065s] INFO:colcon.colcon_core.shell:Creating prefix util module '/drone_space/ros2_ws/install/_local_setup_util_sh.py'
+[12.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/drone_space/ros2_ws/install/setup.sh'
+[12.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/drone_space/ros2_ws/install/local_setup.bash'
+[12.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/drone_space/ros2_ws/install/setup.bash'
+[12.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/drone_space/ros2_ws/install/local_setup.zsh'
+[12.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/drone_space/ros2_ws/install/setup.zsh'

@@ -1,0 +1,6 @@
+Invoking command in '/drone_space/build/decision_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /drone_space/src/decision_node -DCMAKE_INSTALL_PREFIX=/drone_space/install/decision_node
+Invoked command in '/drone_space/build/decision_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /drone_space/src/decision_node -DCMAKE_INSTALL_PREFIX=/drone_space/install/decision_node
+Invoking command in '/drone_space/build/decision_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /drone_space/build/decision_node -- -j20 -l20
+Invoked command in '/drone_space/build/decision_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /drone_space/build/decision_node -- -j20 -l20
+Invoking command in '/drone_space/build/decision_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /drone_space/build/decision_node
+Invoked command in '/drone_space/build/decision_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /drone_space/build/decision_node

@@ -1,0 +1,1 @@
+/drone_space/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_fixed_wing_lateral_status_s.c
