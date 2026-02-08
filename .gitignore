@@ -1,0 +1,4 @@
+# ROS2 build, install, log 폴더 제외
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
