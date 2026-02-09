@@ -1,0 +1,4 @@
+
+# Docker 관련 빌드/로그
+docker_drone/build/
+docker_drone/log/

@@ -64,8 +64,11 @@ private:
 
     rclcpp::Time state_start_;
     rclcpp::Time last_hover_log_;
+    rclcpp::Time land_start_;
+    rclcpp::Time last_land_log_;
 
     int offboard_counter_{0};
+    bool land_cmd_sent_{false};
 
     rclcpp::Publisher<px4_msgs::msg::VehicleCommand>::SharedPtr cmd_pub_;
     rclcpp::Publisher<px4_msgs::msg::OffboardControlMode>::SharedPtr offboard_pub_;
@@ -107,6 +110,10 @@ private:
     void publishOffboard() {
         px4_msgs::msg::OffboardControlMode msg{};
         msg.position = true;
+        msg.velocity = false;
+        msg.acceleration = false;
+        msg.attitude = false;
+        msg.body_rate = false;
         msg.timestamp = now_us();
         offboard_pub_->publish(msg);
     }
@@ -191,14 +198,18 @@ private:
                     x_, y_, z_);
             }
             if ((now() - state_start_).seconds() > 10.0) {
-                RCLCPP_INFO(get_logger(), "[STATE] GOTO_TARGET");
-                state_ = State::GOTO_TARGET;
+                if (ref_ready_) {
+                    RCLCPP_INFO(get_logger(), "[STATE] GOTO_TARGET");
+                    state_ = State::GOTO_TARGET;
+                } else {
+                    RCLCPP_WARN(get_logger(), "[HOVER] ref not ready, waiting");
+                }
             }
             break;
 
         case State::GOTO_TARGET:
             publishSetpoint(target_x_, target_y_, -target_alt_);
-            if (dist2D() < 1.0) {
+            if (dist2D() < 1.0 && std::abs(z_ + target_alt_) < 0.2f) {
                 RCLCPP_INFO(get_logger(), "[STATE] TARGET_HOVER");
                 state_ = State::TARGET_HOVER;
                 state_start_ = now();
@@ -222,8 +233,26 @@ private:
             break;
 
         case State::LAND:
-            sendCmd(px4_msgs::msg::VehicleCommand::VEHICLE_CMD_NAV_LAND);
-            state_ = State::FINISHED;
+            if (!land_cmd_sent_) {
+                sendCmd(px4_msgs::msg::VehicleCommand::VEHICLE_CMD_NAV_LAND);
+                land_cmd_sent_ = true;
+                land_start_ = now();
+                last_land_log_ = now();
+            }
+
+            if ((now() - last_land_log_).seconds() >= 0.5) {
+                last_land_log_ = now();
+                RCLCPP_INFO(get_logger(),
+                    "[LAND] t=%.1f x=%.2f y=%.2f z=%.2f arm_state=%u nav_state=%u",
+                    (now() - land_start_).seconds(),
+                    x_, y_, z_, arm_state_, nav_state_);
+            }
+
+            // 착륙 완료(Disarm) 확인 후 종료
+            if (arm_state_ == px4_msgs::msg::VehicleStatus::ARMING_STATE_DISARMED) {
+                RCLCPP_INFO(get_logger(), "[STATE] FINISHED");
+                state_ = State::FINISHED;
+            }
             break;
 
         case State::FINISHED:
