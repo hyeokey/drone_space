@@ -6,3 +6,6 @@ ros2_ws/log/
 # Docker 관련 빌드/로그
 docker_drone/build/
 docker_drone/log/
+
+# Local editor settings and caches
+.vscode/

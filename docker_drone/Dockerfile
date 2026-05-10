@@ -30,6 +30,8 @@ RUN echo "deb http://packages.ros.org/ros2/ubuntu jammy main" \
 # ROS2 Humble (가벼운 ros-base)
 RUN apt-get update && apt-get install -y \
     ros-humble-ros-base \
+    ros-humble-rqt-image-view \
+    ros-humble-image-transport-plugins \
     python3-colcon-common-extensions \
     && rm -rf /var/lib/apt/lists/*
 
@@ -38,4 +40,3 @@ RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc
 
 WORKDIR /drone_space
 CMD ["/bin/bash"]
-

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gz_camera_republisher</name>
+  <version>0.0.1</version>
+  <description>Republish a Gazebo Transport camera stream as ROS 2 sensor_msgs topics.</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+
+  <build_depend>pkg-config</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
