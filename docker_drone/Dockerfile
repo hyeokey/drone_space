@@ -32,6 +32,8 @@ RUN apt-get update && apt-get install -y \
     ros-humble-ros-base \
     ros-humble-rqt-image-view \
     ros-humble-image-transport-plugins \
+    libignition-transport11-dev \
+    libignition-msgs8-dev \
     python3-colcon-common-extensions \
     && rm -rf /var/lib/apt/lists/*
 
