@@ -1,10 +1,12 @@
 # drone_space
 
-PX4 ROS 2 실험용 워크스페이스입니다. 현재 팀원이 주로 보면 되는 코드는
+PX4 ROS 2 실험용 워크스페이스입니다. 주로 보면 되는 코드는
 `ros2_ws/src/gz_camera_republisher`입니다.
 
-`ros2_ws/src/decision_node`에 있는 코드는 지금 단계에서는 사용하지 않습니다. 빌드나 실행 중에
-문제가 생기면 우선 `decision_node`는 무시하고 `gz_camera_republisher`만 확인하면 됩니다.
+Gazebo 토픽을 직접 구독해서 다시 ROS용 카메라 토픽으로 쏴줍니다.
+
+`ros2_ws/src/decision_node`에 있는 코드는 지금 단계에서는 무시합니다. 빌드나 실행 중에
+문제가 생기면 우선적으로 `decision_node`는 무시하고, `gz_camera_republisher`만 확인하면 됩니다.
 
 ## 저장소 받기
 
